@@ -1,0 +1,40 @@
+html{
+  font-size: 18px;
+}
+
+header,
+.banner,
+nav,
+.product-grid,
+.business-info,
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  width: 960px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+header {
+  background-color: black;
+}
+
+header img {
+  display: inline-block;
+  height: 1.5rem;
+  padding: 0.66rem 1rem 0.66rem 0.5rem;
+}
+
+header h5 {
+  display: inline-block;
+  font-size: 1rem;
+  font-family: Helvetica;
+  color: white;
+  text-transform: capitalize;
+  padding: 0.66rem 0rem;
+}
