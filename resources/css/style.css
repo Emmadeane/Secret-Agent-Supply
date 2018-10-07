@@ -2,6 +2,10 @@ html{
   font-size: 18px;
 }
 
+body {
+  font-family: Helvetica;
+}
+
 header,
 .banner,
 nav,
@@ -33,8 +37,36 @@ header img {
 header h5 {
   display: inline-block;
   font-size: 1rem;
-  font-family: Helvetica;
   color: white;
   text-transform: capitalize;
   padding: 0.66rem 0rem;
+}
+
+.banner {
+  height: 25rem;
+  padding-top: 9rem;
+  background-image: url("./../images/bannerbg.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.new {
+  background-color: black;
+  color: white;
+  text-transform: capitalize;
+  width: 20rem;
+  padding: 2rem 3rem;
+}
+
+.new h5 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.new h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 0.25rem;
 }
