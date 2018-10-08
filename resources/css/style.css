@@ -32,11 +32,13 @@ footer {
 }
 
 /*containers for full website*/
-.container {
+.container,
+.container-info {
   display: flex;
   width: 960px;
   align-items: center;
   justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 /*header*/
@@ -176,7 +178,14 @@ li {
 
 /*business info*/
 
-.business-info.container {
+.info {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-info {
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
@@ -188,7 +197,7 @@ li {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  width: 100%;
+  width: 35%;
 }
 
 .info2 {
@@ -196,14 +205,18 @@ li {
   flex-direction: column;
   justify-content: space-between;
   align-items:flex-end;
-  width: 100%;
+  width: 35%;
 }
 
 span.title {
   background-color: black;
   color: white;
   padding: 1rem 2rem;
-  width: 35%;
+  width: 100%;
+}
+
+.hours {
+  width: 100%;
 }
 
 /*footer*/
@@ -297,17 +310,20 @@ footer {
    .business-info {
      display: flex;
      justify-content: center;
-     width: 90%;
+     width: 100%;
      flex-wrap: wrap;
    }
 
    .info1 {
-     width: 90%;
+     width: 100%;
      align-items: flex-start;
+     flex-wrap: wrap;
    }
    .info2 {
      padding-top: 0.5rem;
      align-items: flex-start;
+     flex-wrap: wrap;
+     width: 100%;
    }
 
    span.title {
