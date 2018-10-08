@@ -284,26 +284,38 @@ footer {
      display: none;
    }
 
-   .product {
-     width: 90%;
+   .products {
+     display: flex;
+     justify-content: center;
    }
 
-   .business-info.container {
+   .product {
      width: 90%;
-     flex-direction: column;
+     justify-content: center;
+   }
+
+   .business-info {
+     display: flex;
+     justify-content: center;
+     width: 90%;
+     flex-wrap: wrap;
    }
 
    .info1 {
-     justify-content: center;
+     width: 90%;
      align-items: flex-start;
    }
    .info2 {
      padding-top: 0.5rem;
-     justify-content: center;
      align-items: flex-start;
+   }
+
+   span.title {
+     width: 90%;
    }
 
    .copyright {
      text-align: center;
+     justify-content: center;
    }
 }
