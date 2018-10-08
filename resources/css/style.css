@@ -163,7 +163,8 @@ li {
 
 /*titles under products*/
 
-.product span {
+.product span,
+.product-glasses span {
   background-color: black;
   color: white;
   padding: 0.5rem 0;
@@ -232,7 +233,7 @@ footer {
     display: none;
   }
 
-  .alt-nav {
+  .alt-nav2 {
     display: flex;
     width: 100%;
   }
